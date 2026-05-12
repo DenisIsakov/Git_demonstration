@@ -230,6 +230,10 @@
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[loadingTime]]></Name>
+				<Value Class="CodeUnitValue">
+					<Code><![CDATA[2]]></Code>
+					<Unit Class="TimeUnits">SECOND</Unit>
+				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[seizeDestinationType]]></Name>
@@ -563,6 +567,46 @@
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[newTransporter]]></Name>
+				<Value Class="EntityCodeValue">
+					<IsAgentEntity>true</IsAgentEntity>
+					<EntityEmbeddedObject>
+						<Id>1778604930618</Id>
+						<ActiveObjectClass>
+							<PackageName>git_demonstration</PackageName>
+							<ClassName>Transporter</ClassName>
+						</ActiveObjectClass>
+						<GenericParameterSubstitute>
+							<GenericParameterSubstituteReference>
+								<PackageName>git_demonstration</PackageName>
+								<ClassName>Transporter</ClassName>
+								<ItemName>1778604941259</ItemName>
+							</GenericParameterSubstituteReference>
+						</GenericParameterSubstitute>
+						<Parameters/>
+						<ReplicationFlag>true</ReplicationFlag>
+						<Replication Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</Replication>
+						<CollectionType>ARRAY_LIST_BASED</CollectionType>
+						<InitialLocationType>XYZ</InitialLocationType>
+						<ColumnCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</ColumnCode>
+						<RowCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</RowCode>
+						<LocationNameCode Class="CodeValue">
+							<Code><![CDATA[""]]></Code>
+						</LocationNameCode>
+						<InitializationType>LOAD_FROM_DATABASE</InitializationType>
+						<InitializationDatabaseTableQuery>
+							<Id>1778604930619</Id>
+							<TableReference/>
+						</InitializationDatabaseTableQuery>
+						<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+						<QuantityColumn/>
+					</EntityEmbeddedObject>
+				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[setDimensions]]></Name>
