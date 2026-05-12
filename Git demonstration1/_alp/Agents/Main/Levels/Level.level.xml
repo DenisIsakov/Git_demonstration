@@ -101,7 +101,7 @@
 			<Unit Class="LengthUnits">METER</Unit>
 		</LeftPassage>
 		<AisleWidth Class="UnitValue">
-			<Value Class="Double">8</Value>
+			<Value Class="Double">2.666666666666667</Value>
 			<Unit Class="LengthUnits">METER</Unit>
 		</AisleWidth>
 		<SlotDepth Class="UnitValue">
@@ -129,10 +129,10 @@
 		<BaysDefinition>NUMBER_OF_BAYS</BaysDefinition>
 		<NumberOfBays>5</NumberOfBays>
 		<NumberOfCells>1</NumberOfCells>
-		<NumberOfShelves>5</NumberOfShelves>
+		<NumberOfShelves>10</NumberOfShelves>
 		<RackType>SELECTIVE</RackType>
 		<SkuFlow>LIFO</SkuFlow>
-		<Configuration>BACK_TO_BACK</Configuration>
+		<Configuration>SINGLE_BAY</Configuration>
 		<DrawLegs>true</DrawLegs>
 		<CellsBetweenLegs>2</CellsBetweenLegs>
 		<SimplifiedAnimation>true</SimplifiedAnimation>
