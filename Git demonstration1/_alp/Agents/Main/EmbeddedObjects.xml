@@ -231,7 +231,7 @@
 			<Parameter>
 				<Name><![CDATA[loadingTime]]></Name>
 				<Value Class="CodeUnitValue">
-					<Code><![CDATA[2]]></Code>
+					<Code><![CDATA[uniform(1, 2)]]></Code>
 					<Unit Class="TimeUnits">SECOND</Unit>
 				</Value>
 			</Parameter>
